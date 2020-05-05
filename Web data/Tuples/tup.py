@@ -15,6 +15,8 @@ text = open(name)
 
 hours = dict()
 
+#hours
+
 for line in text:
     line.rstrip()
     if not line.startswith("From "): continue
